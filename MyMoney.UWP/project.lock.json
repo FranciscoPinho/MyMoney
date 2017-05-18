@@ -24135,16 +24135,16 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\Users\\Holykael\\documents\\visual studio 2017\\Projects\\MyMoney\\MyMoney\\MyMoney.UWP\\MyMoney.UWP.csproj",
+      "projectUniqueName": "C:\\Users\\Holykael\\Documents\\Visual Studio 2017\\Projects\\MyMoney\\MyMoney\\MyMoney.UWP\\MyMoney.UWP.csproj",
       "projectName": "MyMoney.UWP",
-      "projectPath": "C:\\Users\\Holykael\\documents\\visual studio 2017\\Projects\\MyMoney\\MyMoney\\MyMoney.UWP\\MyMoney.UWP.csproj",
-      "projectJsonPath": "C:\\Users\\Holykael\\documents\\visual studio 2017\\Projects\\MyMoney\\MyMoney\\MyMoney.UWP\\project.json",
+      "projectPath": "C:\\Users\\Holykael\\Documents\\Visual Studio 2017\\Projects\\MyMoney\\MyMoney\\MyMoney.UWP\\MyMoney.UWP.csproj",
+      "projectJsonPath": "C:\\Users\\Holykael\\Documents\\Visual Studio 2017\\Projects\\MyMoney\\MyMoney\\MyMoney.UWP\\project.json",
       "projectStyle": "ProjectJson",
       "frameworks": {
         "uap10.0": {
           "projectReferences": {
-            "C:\\Users\\Holykael\\documents\\visual studio 2017\\Projects\\MyMoney\\MyMoney\\MyMoney\\MyMoney.csproj": {
-              "projectPath": "C:\\Users\\Holykael\\documents\\visual studio 2017\\Projects\\MyMoney\\MyMoney\\MyMoney\\MyMoney.csproj"
+            "C:\\Users\\Holykael\\Documents\\Visual Studio 2017\\Projects\\MyMoney\\MyMoney\\MyMoney\\MyMoney.csproj": {
+              "projectPath": "C:\\Users\\Holykael\\Documents\\Visual Studio 2017\\Projects\\MyMoney\\MyMoney\\MyMoney\\MyMoney.csproj"
             }
           }
         }

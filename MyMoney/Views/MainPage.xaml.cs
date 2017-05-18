@@ -23,31 +23,29 @@ namespace MyMoney
 
             // Reset the 'resume' id, since we just want to re-start here
             ((App)App.Current).ResumeAtTodoId = -1;
-            Debug.WriteLine("BeforeitemsSource OnAppearing");
-            listView.ItemsSource = await App.Database.GetCurrenciesAsync();
+            listView.ItemsSource = await App.Database.GetMoneyAsync();
         }
         
         async void OnItemAdded(object sender, EventArgs e)
         {
             Debug.WriteLine("I added an item");
-            /*
-            await Navigation.PushAsync(new TodoItemPage
+            
+            await Navigation.PushAsync(new MoneyItemPage
             {
-                BindingContext = new TodoItem()
+                BindingContext = new Money()
             });
-            */
         }
 
         async void OnListItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
-            ((App)App.Current).ResumeAtTodoId = (e.SelectedItem as Currency).ID;
-            Debug.WriteLine("setting ResumeAtTodoId = " + (e.SelectedItem as Currency).ID);
-            /*
-            await Navigation.PushAsync(new TodoItemPage
+            ((App)App.Current).ResumeAtTodoId = (e.SelectedItem as Money).ID;
+            Debug.WriteLine("setting ResumeAtTodoId = " + (e.SelectedItem as Money).ID);
+            
+            await Navigation.PushAsync(new MoneyItemPage
             {
-                BindingContext = e.SelectedItem as TodoItem
+                BindingContext = e.SelectedItem as Money
             });
-            */
+            
         }
     }
 }

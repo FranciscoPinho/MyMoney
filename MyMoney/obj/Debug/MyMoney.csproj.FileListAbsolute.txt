@@ -23,3 +23,5 @@ C:\Users\Holykael\documents\visual studio 2017\Projects\MyMoney\MyMoney\MyMoney\
 C:\Users\Holykael\documents\visual studio 2017\Projects\MyMoney\MyMoney\MyMoney\obj\Debug\MyMoney.App.xaml.g.cs
 C:\Users\Holykael\documents\visual studio 2017\Projects\MyMoney\MyMoney\MyMoney\obj\Debug\MyMoney.dll
 C:\Users\Holykael\documents\visual studio 2017\Projects\MyMoney\MyMoney\MyMoney\obj\Debug\MyMoney.pdb
+C:\Users\Holykael\Documents\Visual Studio 2017\Projects\MyMoney\MyMoney\MyMoney\obj\Debug\MyMoney.csprojResolveAssemblyReference.cache
+C:\Users\Holykael\Documents\Visual Studio 2017\Projects\MyMoney\MyMoney\MyMoney\obj\Debug\MyMoney.Views.MoneyItemPage.xaml.g.cs

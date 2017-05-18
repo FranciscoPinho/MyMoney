@@ -7,8 +7,8 @@ namespace MyMoney
     {
         [PrimaryKey, AutoIncrement]
         public int ID { get; set; }
-        [ForeignKey(typeof(Currency))]
-        public int CurrID { get; set; }
+        public string Symbol { get; set; }
+        public string Cur { get; set; }
         public double Value { get; set; }
     }
 }

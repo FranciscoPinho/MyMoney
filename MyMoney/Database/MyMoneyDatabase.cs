@@ -35,7 +35,12 @@ namespace MyMoney
         {
             return database.Table<Currency>().Where(i => i.ID == id).FirstOrDefaultAsync();
         }
-
+        public Currency GetCurrencyAsyncName(string code)
+        {
+            Currency bla = database.QueryAsync<Currency>("SELECT [Symbol] FROM [Currency] WHERE [Code]=?", code).Result[0];
+            Debug.WriteLine(bla.ToString());
+            return bla;
+        }
         public Task<int> SaveMoneyAsync(Money item)
         {
             if (item.ID != 0)

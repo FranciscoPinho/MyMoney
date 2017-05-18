@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>ea1fa8eb-5797-4f51-a8a0-25fa0c4c554e</PackageIdentityName>
     <PackageIdentityPublisher>CN=Holykael</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Holykael\documents\visual studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Holykael\Documents\Visual Studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Holykael\documents\visual studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\Holykael\Documents\Visual Studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>3D2F8A096D82578850A0BF346D33BEA806D019E73481DED4D6B5DEA2CD26EABB</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>ea1fa8eb-5797-4f51-a8a0-25fa0c4c554e_1.0.0.0_x86__h4y6zt0hj78hp</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>ea1fa8eb-5797-4f51-a8a0-25fa0c4c554e_h4y6zt0hj78hp!App</RegisteredUserModeAppID>
@@ -28,16 +28,16 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Holykael\documents\visual studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Holykael\Documents\Visual Studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-05-14T19:48:14.505</Modified>
+      <Modified>2017-05-18T19:36:06.823</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Holykael\documents\visual studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\bin\x86\Debug\MyMoney.UWP.exe">
+    <AppxPackagedFile Include="C:\Users\Holykael\Documents\Visual Studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\bin\x86\Debug\MyMoney.UWP.exe">
       <PackagePath>entrypoint\MyMoney.UWP.exe</PackagePath>
-      <Modified>2017-05-14T19:48:13.901</Modified>
+      <Modified>2017-05-18T19:36:06.284</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Holykael\.nuget\packages\Microsoft.CSharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -567,169 +567,169 @@
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
       <Modified>2017-03-29T12:22:30.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Holykael\documents\visual studio 2017\Projects\MyMoney\MyMoney\MyMoney\bin\Debug\MyMoney.dll">
+    <AppxPackagedFile Include="C:\Users\Holykael\Documents\Visual Studio 2017\Projects\MyMoney\MyMoney\MyMoney\bin\Debug\MyMoney.dll">
       <PackagePath>MyMoney.dll</PackagePath>
-      <Modified>2017-05-14T19:48:11.758</Modified>
+      <Modified>2017-05-18T19:36:04.232</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Holykael\documents\visual studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\Assets\plus.png">
+    <AppxPackagedFile Include="C:\Users\Holykael\Documents\Visual Studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\Assets\plus.png">
       <PackagePath>Assets\plus.png</PackagePath>
       <Modified>2017-05-14T16:29:42.304</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Holykael\documents\visual studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\Assets\LockScreenLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Holykael\Documents\Visual Studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\Assets\LockScreenLogo.scale-100.png">
       <PackagePath>Assets\LockScreenLogo.scale-100.png</PackagePath>
       <Modified>2017-05-11T20:32:19.400</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Holykael\documents\visual studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\Assets\LockScreenLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Holykael\Documents\Visual Studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\Assets\LockScreenLogo.scale-125.png">
       <PackagePath>Assets\LockScreenLogo.scale-125.png</PackagePath>
       <Modified>2017-05-11T20:32:19.404</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Holykael\documents\visual studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\Assets\LockScreenLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Holykael\Documents\Visual Studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\Assets\LockScreenLogo.scale-150.png">
       <PackagePath>Assets\LockScreenLogo.scale-150.png</PackagePath>
       <Modified>2017-05-11T20:32:19.406</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Holykael\documents\visual studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Holykael\Documents\Visual Studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2017-05-11T20:32:19.408</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Holykael\documents\visual studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\Assets\LockScreenLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Holykael\Documents\Visual Studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\Assets\LockScreenLogo.scale-400.png">
       <PackagePath>Assets\LockScreenLogo.scale-400.png</PackagePath>
       <Modified>2017-05-11T20:32:19.410</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Holykael\documents\visual studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Holykael\Documents\Visual Studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-05-11T20:32:19.412</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Holykael\documents\visual studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\Assets\SplashScreen.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Holykael\Documents\Visual Studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\Assets\SplashScreen.scale-125.png">
       <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-05-11T20:32:19.414</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Holykael\documents\visual studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\Assets\SplashScreen.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Holykael\Documents\Visual Studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\Assets\SplashScreen.scale-150.png">
       <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-05-11T20:32:19.416</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Holykael\documents\visual studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Holykael\Documents\Visual Studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-05-11T20:32:19.418</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Holykael\documents\visual studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Holykael\Documents\Visual Studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-05-11T20:32:19.420</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Holykael\documents\visual studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Holykael\Documents\Visual Studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-05-11T20:32:19.422</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Holykael\documents\visual studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\Assets\Square150x150Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Holykael\Documents\Visual Studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\Assets\Square150x150Logo.scale-125.png">
       <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-05-11T20:32:19.424</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Holykael\documents\visual studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\Assets\Square150x150Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Holykael\Documents\Visual Studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\Assets\Square150x150Logo.scale-150.png">
       <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-05-11T20:32:19.426</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Holykael\documents\visual studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Holykael\Documents\Visual Studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-05-11T20:32:19.428</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Holykael\documents\visual studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Holykael\Documents\Visual Studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-05-11T20:32:19.430</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Holykael\documents\visual studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Holykael\Documents\Visual Studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-05-11T20:32:19.432</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Holykael\documents\visual studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\Assets\Square44x44Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Holykael\Documents\Visual Studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\Assets\Square44x44Logo.scale-125.png">
       <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-05-11T20:32:19.434</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Holykael\documents\visual studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\Assets\Square44x44Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Holykael\Documents\Visual Studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\Assets\Square44x44Logo.scale-150.png">
       <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-05-11T20:32:19.436</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Holykael\documents\visual studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Holykael\Documents\Visual Studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-05-11T20:32:19.439</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Holykael\documents\visual studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Holykael\Documents\Visual Studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-05-11T20:32:19.441</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Holykael\documents\visual studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\Assets\Square44x44Logo.targetsize-16_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Holykael\Documents\Visual Studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\Assets\Square44x44Logo.targetsize-16_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-05-11T20:32:19.443</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Holykael\documents\visual studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Holykael\Documents\Visual Studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-05-11T20:32:19.444</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Holykael\documents\visual studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\Assets\Square44x44Logo.targetsize-32_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Holykael\Documents\Visual Studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\Assets\Square44x44Logo.targetsize-32_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-32_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-05-11T20:32:19.448</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Holykael\documents\visual studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\Assets\Square44x44Logo.targetsize-48_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Holykael\Documents\Visual Studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\Assets\Square44x44Logo.targetsize-48_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-05-11T20:32:19.450</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Holykael\documents\visual studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\Assets\Square44x44Logo.targetsize-256_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Holykael\Documents\Visual Studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\Assets\Square44x44Logo.targetsize-256_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-05-11T20:32:19.446</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Holykael\documents\visual studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Holykael\Documents\Visual Studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-05-11T20:32:19.452</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Holykael\documents\visual studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Holykael\Documents\Visual Studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-05-11T20:32:19.454</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Holykael\documents\visual studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\Assets\Wide310x150Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Holykael\Documents\Visual Studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\Assets\Wide310x150Logo.scale-125.png">
       <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-05-11T20:32:19.456</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Holykael\documents\visual studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\Assets\Wide310x150Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Holykael\Documents\Visual Studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\Assets\Wide310x150Logo.scale-150.png">
       <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-05-11T20:32:19.458</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Holykael\documents\visual studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Holykael\Documents\Visual Studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-05-11T20:32:19.460</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Holykael\documents\visual studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Holykael\Documents\Visual Studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-05-11T20:32:19.462</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Holykael\documents\visual studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Holykael\Documents\Visual Studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2017-05-11T20:32:19.466</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Holykael\documents\visual studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\bin\x86\Debug\MyMoney.UWP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Holykael\Documents\Visual Studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\bin\x86\Debug\MyMoney.UWP.xr.xml">
       <PackagePath>MyMoney.UWP.xr.xml</PackagePath>
       <Modified>2017-05-14T14:59:45.175</Modified>
     </AppxPackagedFile>
@@ -745,14 +745,14 @@
       <PackagePath>Xamarin.Forms.Platform.UAP\Properties\Xamarin.Forms.Platform.UAP.rd.xml</PackagePath>
       <Modified>2017-03-29T12:22:30.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Holykael\documents\visual studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Holykael\Documents\Visual Studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-05-14T19:38:15.241</Modified>
+      <Modified>2017-05-17T09:07:37.624</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Holykael\documents\visual studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\bin\x86\Debug\Core\MyMoney.UWP.exe">
+    <AppxPackagedFile Include="C:\Users\Holykael\Documents\Visual Studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\bin\x86\Debug\Core\MyMoney.UWP.exe">
       <PackagePath>MyMoney.UWP.exe</PackagePath>
-      <Modified>2017-05-14T19:48:14.501</Modified>
+      <Modified>2017-05-18T19:36:06.820</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
