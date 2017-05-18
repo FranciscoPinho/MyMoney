@@ -11,7 +11,7 @@ namespace MyMoney
         public App()
         {
             Resources = new ResourceDictionary();
-            Resources.Add("primaryGreen", Color.FromHex("00CC00"));
+            Resources.Add("primaryGreen", Color.FromHex("006600"));
             Resources.Add("primaryDarkGreen", Color.FromHex("006600"));
 
             var nav = new NavigationPage(new MainPage());
@@ -24,12 +24,9 @@ namespace MyMoney
         {
             get
             {
-                Debug.WriteLine("Entered database get");
                 if (database == null)
                 {
-                    Debug.WriteLine("Im trying to create new database");
                     database = new MyMoneyDatabase(DependencyService.Get<IFileHelper>().GetLocalFilePath("MyMoneySQLite.db3"));
-                    Debug.WriteLine("I created the database");
                 }
                 return database;
             }

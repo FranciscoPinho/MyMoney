@@ -27,9 +27,7 @@ namespace MyMoney
         }
         
         async void OnItemAdded(object sender, EventArgs e)
-        {
-            Debug.WriteLine("I added an item");
-            
+        {   
             await Navigation.PushAsync(new MoneyItemPage
             {
                 BindingContext = new Money()

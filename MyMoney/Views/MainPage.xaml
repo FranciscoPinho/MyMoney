@@ -13,9 +13,9 @@
 			<DataTemplate>
 				<ViewCell>
 					<StackLayout Margin="20,0,0,0" Orientation="Horizontal" HorizontalOptions="FillAndExpand">
-                        <Label Text="{Binding Name}" VerticalTextAlignment="Center" HorizontalOptions="StartAndExpand" />
-                        <Label Text="{Binding Code}" VerticalTextAlignment="Center" HorizontalOptions="StartAndExpand" />
-                        <Label Text="{Binding Symbol}" VerticalTextAlignment="Center" HorizontalOptions="StartAndExpand" />
+                        <Label Text="{Binding Value}" VerticalTextAlignment="End" HorizontalOptions="Start" />
+                        <Label Text="{Binding Symbol}" VerticalTextAlignment="Start" HorizontalOptions="StartAndExpand" />
+                        <Label Text="{Binding Cur}" VerticalTextAlignment="Center" HorizontalOptions="Center" />
                     </StackLayout>
 				</ViewCell>
 			</DataTemplate>

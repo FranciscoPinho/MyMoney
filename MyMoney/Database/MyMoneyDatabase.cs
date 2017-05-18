@@ -27,7 +27,6 @@ namespace MyMoney
 
         public Task<List<Currency>> GetCurrenciesAsync()
         {
-            Debug.WriteLine("At getCurrenciesAsync");
             return database.Table<Currency>().ToListAsync();
         }
       
@@ -37,9 +36,7 @@ namespace MyMoney
         }
         public Currency GetCurrencyAsyncName(string code)
         {
-            Currency bla = database.QueryAsync<Currency>("SELECT [Symbol] FROM [Currency] WHERE [Code]=?", code).Result[0];
-            Debug.WriteLine(bla.ToString());
-            return bla;
+            return database.QueryAsync<Currency>("SELECT [Symbol] FROM [Currency] WHERE [Code]=?", code).Result[0];
         }
         public Task<int> SaveMoneyAsync(Money item)
         {

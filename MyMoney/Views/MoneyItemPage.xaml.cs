@@ -33,9 +33,8 @@ namespace MyMoney
         }
         async void OnSaveClicked(object sender, EventArgs e)
         {
-            var money = (Money)BindingContext;
-            money.Cur = ((Currency)this.FindByName<Picker>("currencypick").SelectedItem).Code;
-            Debug.WriteLine("WHAT IS THIS");
+            Money money = (Money)BindingContext;
+            money.Cur = this.FindByName<Picker>("currencypick").SelectedItem.ToString();
             await App.Database.SaveMoneyAsync(money);
             await Navigation.PopAsync();
         }
@@ -59,7 +58,6 @@ namespace MyMoney
             Entry symbol = this.FindByName<Entry>("symbol");
             Currency currency = App.Database.GetCurrencyAsyncName(selectedValue);
             symbol.Text=currency.Symbol;
-
         }
 
     }

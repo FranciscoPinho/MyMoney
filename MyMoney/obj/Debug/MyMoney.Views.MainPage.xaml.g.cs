@@ -11,7 +11,7 @@
 namespace MyMoney {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\Holykael\\documents\\visual studio 2017\\Projects\\MyMoney\\MyMoney\\MyMoney\\V" +
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\Holykael\\Documents\\Visual Studio 2017\\Projects\\MyMoney\\MyMoney\\MyMoney\\V" +
         "iews\\MainPage.xaml")]
     public partial class MainPage : global::Xamarin.Forms.ContentPage {
         
