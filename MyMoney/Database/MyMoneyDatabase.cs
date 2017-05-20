@@ -14,7 +14,6 @@ namespace MyMoney
         {
             database = new SQLiteAsyncConnection(dbPath);
             database.DropTableAsync<Currency>().Wait();
-            database.DropTableAsync<Rate>().Wait();
             database.CreateTableAsync<Currency>().Wait();
             database.CreateTableAsync<Money>().Wait();
             database.CreateTableAsync<Rate>().Wait();

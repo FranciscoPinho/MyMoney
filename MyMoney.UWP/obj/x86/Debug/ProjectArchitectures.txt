@@ -1,2 +1,0 @@
-C:\Users\Holykael\Documents\Visual Studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\MyMoney.UWP.csproj;x86
-C:\Users\Holykael\Documents\Visual Studio 2017\Projects\MyMoney\MyMoney\MyMoney\MyMoney.csproj;neutral
