@@ -5,7 +5,7 @@
         <Label Text="Value" />
         <Entry Text="{Binding Value}" />
         <Label Text="Symbol" />
-        <Entry Text="{Binding Symbol}" x:Name="symbol"/>
+        <Label Text="{Binding Symbol}" x:Name="symbol"/>
         <Picker Title="Currencies" VerticalOptions = "CenterAndExpand" x:Name="currencypick" SelectedIndexChanged="OnChangedCurrency"></Picker>
         <Button Text="Save" Clicked="OnSaveClicked" />
         <Button Text="Delete" Clicked="OnDeleteClicked" />

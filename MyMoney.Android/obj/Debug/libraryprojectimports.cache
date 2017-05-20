@@ -2,14 +2,14 @@
 <Paths>
   <Jars></Jars>
   <ResolvedResourceDirectories>
-    <ResolvedResourceDirectory>C:\Users\Holykael\documents\visual studio 2017\Projects\MyMoney\MyMoney\MyMoney.Android\obj\Debug\__library_projects__\SQLite.Net.Platform.XamarinAndroid\library_project_imports\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\Users\Holykael\documents\visual studio 2017\Projects\MyMoney\MyMoney\MyMoney.Android\obj\Debug\__library_projects__\SQLitePCLRaw.batteries_green\library_project_imports\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\Users\Holykael\documents\visual studio 2017\Projects\MyMoney\MyMoney\MyMoney.Android\obj\Debug\__library_projects__\SQLitePCLRaw.batteries_v2\library_project_imports\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\Users\Holykael\documents\visual studio 2017\Projects\MyMoney\MyMoney\MyMoney.Android\obj\Debug\__library_projects__\SQLitePCLRaw.core\library_project_imports\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\Users\Holykael\documents\visual studio 2017\Projects\MyMoney\MyMoney\MyMoney.Android\obj\Debug\__library_projects__\SQLitePCLRaw.lib.e_sqlite3\library_project_imports\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\Users\Holykael\documents\visual studio 2017\Projects\MyMoney\MyMoney\MyMoney.Android\obj\Debug\__library_projects__\SQLitePCLRaw.provider.e_sqlite3\library_project_imports\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\Users\Holykael\documents\visual studio 2017\Projects\MyMoney\MyMoney\MyMoney.Android\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\Users\Holykael\documents\visual studio 2017\Projects\MyMoney\MyMoney\MyMoney.Android\obj\Debug\__library_projects__\Xamarin.Forms.Platform\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\Holykael\Documents\Visual Studio 2017\Projects\MyMoney\MyMoney\MyMoney.Android\obj\Debug\__library_projects__\SQLite.Net.Platform.XamarinAndroid\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\Holykael\Documents\Visual Studio 2017\Projects\MyMoney\MyMoney\MyMoney.Android\obj\Debug\__library_projects__\SQLitePCLRaw.batteries_green\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\Holykael\Documents\Visual Studio 2017\Projects\MyMoney\MyMoney\MyMoney.Android\obj\Debug\__library_projects__\SQLitePCLRaw.batteries_v2\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\Holykael\Documents\Visual Studio 2017\Projects\MyMoney\MyMoney\MyMoney.Android\obj\Debug\__library_projects__\SQLitePCLRaw.core\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\Holykael\Documents\Visual Studio 2017\Projects\MyMoney\MyMoney\MyMoney.Android\obj\Debug\__library_projects__\SQLitePCLRaw.lib.e_sqlite3\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\Holykael\Documents\Visual Studio 2017\Projects\MyMoney\MyMoney\MyMoney.Android\obj\Debug\__library_projects__\SQLitePCLRaw.provider.e_sqlite3\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\Holykael\Documents\Visual Studio 2017\Projects\MyMoney\MyMoney\MyMoney.Android\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\Holykael\Documents\Visual Studio 2017\Projects\MyMoney\MyMoney\MyMoney.Android\obj\Debug\__library_projects__\Xamarin.Forms.Platform\library_project_imports\res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
     <ResolvedAssetDirectory>obj\Debug\__library_projects__\SQLite.Net.Platform.XamarinAndroid\library_project_imports\assets</ResolvedAssetDirectory>
@@ -23,13 +23,13 @@
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
-    <ResolvedResourceDirectoryStamp>C:\Users\Holykael\documents\visual studio 2017\Projects\MyMoney\MyMoney\MyMoney.Android\obj\Debug\__library_projects__\SQLite.Net.Platform.XamarinAndroid.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\Users\Holykael\documents\visual studio 2017\Projects\MyMoney\MyMoney\MyMoney.Android\obj\Debug\__library_projects__\SQLitePCLRaw.batteries_green.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\Users\Holykael\documents\visual studio 2017\Projects\MyMoney\MyMoney\MyMoney.Android\obj\Debug\__library_projects__\SQLitePCLRaw.batteries_v2.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\Users\Holykael\documents\visual studio 2017\Projects\MyMoney\MyMoney\MyMoney.Android\obj\Debug\__library_projects__\SQLitePCLRaw.core.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\Users\Holykael\documents\visual studio 2017\Projects\MyMoney\MyMoney\MyMoney.Android\obj\Debug\__library_projects__\SQLitePCLRaw.lib.e_sqlite3.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\Users\Holykael\documents\visual studio 2017\Projects\MyMoney\MyMoney\MyMoney.Android\obj\Debug\__library_projects__\SQLitePCLRaw.provider.e_sqlite3.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\Users\Holykael\documents\visual studio 2017\Projects\MyMoney\MyMoney\MyMoney.Android\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\Users\Holykael\documents\visual studio 2017\Projects\MyMoney\MyMoney\MyMoney.Android\obj\Debug\__library_projects__\Xamarin.Forms.Platform.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\Holykael\Documents\Visual Studio 2017\Projects\MyMoney\MyMoney\MyMoney.Android\obj\Debug\__library_projects__\SQLite.Net.Platform.XamarinAndroid.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\Holykael\Documents\Visual Studio 2017\Projects\MyMoney\MyMoney\MyMoney.Android\obj\Debug\__library_projects__\SQLitePCLRaw.batteries_green.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\Holykael\Documents\Visual Studio 2017\Projects\MyMoney\MyMoney\MyMoney.Android\obj\Debug\__library_projects__\SQLitePCLRaw.batteries_v2.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\Holykael\Documents\Visual Studio 2017\Projects\MyMoney\MyMoney\MyMoney.Android\obj\Debug\__library_projects__\SQLitePCLRaw.core.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\Holykael\Documents\Visual Studio 2017\Projects\MyMoney\MyMoney\MyMoney.Android\obj\Debug\__library_projects__\SQLitePCLRaw.lib.e_sqlite3.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\Holykael\Documents\Visual Studio 2017\Projects\MyMoney\MyMoney\MyMoney.Android\obj\Debug\__library_projects__\SQLitePCLRaw.provider.e_sqlite3.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\Holykael\Documents\Visual Studio 2017\Projects\MyMoney\MyMoney\MyMoney.Android\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\Holykael\Documents\Visual Studio 2017\Projects\MyMoney\MyMoney\MyMoney.Android\obj\Debug\__library_projects__\Xamarin.Forms.Platform.stamp</ResolvedResourceDirectoryStamp>
   </ResolvedResourceDirectoryStamps>
 </Paths>

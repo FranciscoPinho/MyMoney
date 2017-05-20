@@ -14,12 +14,13 @@ namespace MyMoney
         {
             database = new SQLiteAsyncConnection(dbPath);
             database.DropTableAsync<Currency>().Wait();
+            database.DropTableAsync<Rate>().Wait();
             database.CreateTableAsync<Currency>().Wait();
             database.CreateTableAsync<Money>().Wait();
+            database.CreateTableAsync<Rate>().Wait();
             fillCurrencyDB();
 
         }
-
         public Task<List<Money>> GetMoneyAsync()
         {
             return database.Table<Money>().ToListAsync();
@@ -29,7 +30,6 @@ namespace MyMoney
         {
             return database.Table<Currency>().ToListAsync();
         }
-      
         public Task<Currency> GetCurrencyAsync(int id)
         {
             return database.Table<Currency>().Where(i => i.ID == id).FirstOrDefaultAsync();
@@ -37,6 +37,28 @@ namespace MyMoney
         public Currency GetCurrencyAsyncName(string code)
         {
             return database.QueryAsync<Currency>("SELECT [Symbol] FROM [Currency] WHERE [Code]=?", code).Result[0];
+        }
+        public Rate GetRateAsync(string from,string to)
+        {
+            List<Rate> results;
+            results = database.QueryAsync<Rate>("SELECT * FROM [Rate] WHERE [FromCur]=? AND [TargetCur]=?",from,to).Result;
+            if (results.Count == 0)
+                return null;
+            else
+            {
+                return results[0];
+            }
+        }
+        public Task<int> SaveRateAsync(Rate item)
+        {
+            if (item.ID != 0)
+            {
+                return database.UpdateAsync(item);
+            }
+            else
+            {
+                return database.InsertAsync(item);
+            }
         }
         public Task<int> SaveMoneyAsync(Money item)
         {

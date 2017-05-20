@@ -8,17 +8,23 @@
 			</ToolbarItem.Icon>
 		</ToolbarItem>
 	</ContentPage.ToolbarItems>
-	<ListView x:Name="listView" Margin="20" ItemSelected="OnListItemSelected">
-		<ListView.ItemTemplate>
-			<DataTemplate>
-				<ViewCell>
-					<StackLayout Margin="20,0,0,0" Orientation="Horizontal" HorizontalOptions="FillAndExpand">
-                        <Label Text="{Binding Value}" VerticalTextAlignment="End" HorizontalOptions="Start" />
-                        <Label Text="{Binding Symbol}" VerticalTextAlignment="Start" HorizontalOptions="StartAndExpand" />
-                        <Label Text="{Binding Cur}" VerticalTextAlignment="Center" HorizontalOptions="Center" />
-                    </StackLayout>
-				</ViewCell>
-			</DataTemplate>
-		</ListView.ItemTemplate>
-	</ListView>
+    <StackLayout Margin="0,0,0,0" Orientation="Vertical" HorizontalOptions="FillAndExpand">
+        <ListView x:Name="listView" Margin="20" ItemSelected="OnListItemSelected">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Margin="20,0,0,0" Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                            <Label Text="{Binding Value}" VerticalTextAlignment="End" HorizontalOptions="Start" />
+                            <Label Text="{Binding Symbol}" VerticalTextAlignment="Start" HorizontalOptions="StartAndExpand" />
+                            <Label Text="{Binding Cur}" VerticalTextAlignment="Center" HorizontalOptions="Center" />
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Picker Title="Currencies" VerticalOptions = "CenterAndExpand" x:Name="targetcur"></Picker>
+        <Button Text="Convert" Clicked="Convert_Clicked"></Button>
+        <Label x:Name="lab1" Text="Status: " HorizontalOptions="Center"></Label>
+        <Label x:Name="lab2" Text="Result: " HorizontalOptions="Center"></Label>
+    </StackLayout>
 </ContentPage>

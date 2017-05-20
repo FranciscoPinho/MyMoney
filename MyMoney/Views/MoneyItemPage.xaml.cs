@@ -34,9 +34,11 @@ namespace MyMoney
         async void OnSaveClicked(object sender, EventArgs e)
         {
             Money money = (Money)BindingContext;
-            money.Cur = this.FindByName<Picker>("currencypick").SelectedItem.ToString();
-            await App.Database.SaveMoneyAsync(money);
-            await Navigation.PopAsync();
+            if (this.FindByName<Picker>("currencypick").SelectedIndex != -1) { 
+                money.Cur = this.FindByName<Picker>("currencypick").SelectedItem.ToString();
+                await App.Database.SaveMoneyAsync(money);
+                await Navigation.PopAsync();
+            }
         }
 
         async void OnDeleteClicked(object sender, EventArgs e)
@@ -55,7 +57,7 @@ namespace MyMoney
         {
             var picker = (Picker)sender;
             var selectedValue = picker.Items[picker.SelectedIndex];
-            Entry symbol = this.FindByName<Entry>("symbol");
+            Label symbol = this.FindByName<Label>("symbol");
             Currency currency = App.Database.GetCurrencyAsyncName(selectedValue);
             symbol.Text=currency.Symbol;
         }
