@@ -13,7 +13,7 @@
         <Button Text="Save" Clicked="OnSaveClicked" />
         <Button Text="Delete" Clicked="OnDeleteClicked" />
         <Button Text="Cancel" Clicked="OnCancelClicked" />
-        <Picker Title="Conversion:" Margin="0,60,0,0" VerticalOptions = "CenterAndExpand" x:Name="convertpick"></Picker>
+        <Picker Title="Conversion:" Margin="0,0,0,0" VerticalOptions = "CenterAndExpand" x:Name="convertpick"></Picker>
         <Button Text="Convert" Clicked="Convert2_Clicked"></Button>
         <Label x:Name="lab2" Text="Result: " HorizontalOptions="Center"></Label>
         <Label x:Name="lab1" Text="" HorizontalOptions="Center"></Label>

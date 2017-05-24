@@ -4,7 +4,7 @@
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="+" Clicked="OnItemAdded">
 			<ToolbarItem.Icon>
-				<OnPlatform x:TypeArguments="FileImageSource" Android="plus.png" />
+				<OnPlatform x:TypeArguments="FileImageSource" Android="plus.png" WinPhone="plus.png" />
 			</ToolbarItem.Icon>
 		</ToolbarItem>
 	</ContentPage.ToolbarItems>
@@ -14,8 +14,8 @@
                 <DataTemplate>
                     <ViewCell>
                         <StackLayout Margin="20,0,0,0" Orientation="Horizontal" HorizontalOptions="FillAndExpand">
-                            <Label Text="{Binding Value}" VerticalTextAlignment="End" HorizontalOptions="Start" />
-                            <Label Text="{Binding Symbol}" VerticalTextAlignment="Start" HorizontalOptions="StartAndExpand" />
+                            <Label Text="{Binding Value}" VerticalTextAlignment="Center" HorizontalOptions="Start" />
+                            <Label Text="{Binding Symbol}" VerticalTextAlignment="Center" HorizontalOptions="Start" />
                             <Label Text="{Binding Cur}" VerticalTextAlignment="Center" HorizontalOptions="Center" />
                         </StackLayout>
                     </ViewCell>
@@ -23,7 +23,11 @@
             </ListView.ItemTemplate>
         </ListView>
         <Picker Title="Currencies" VerticalOptions = "CenterAndExpand" x:Name="targetcur"></Picker>
-        <Button Text="Convert" Clicked="Convert_Clicked"></Button>
+        <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+            <Button Text="Convert" HorizontalOptions="CenterAndExpand" Clicked="Convert_Clicked"></Button>
+            <Button Text="Graphical View" HorizontalOptions="CenterAndExpand" Clicked="graphical_clicked"></Button>
+        </StackLayout>
+        
         <Label x:Name="lab1" Text="Status: " HorizontalOptions="Center"></Label>
         <Label x:Name="lab2" Text="Result: " HorizontalOptions="Center"></Label>
     </StackLayout>

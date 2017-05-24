@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\Holykael\Documents\Visual Studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-05-20T13:34:20.886</Modified>
+      <Modified>2017-05-24T22:33:53.115</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Holykael\Documents\Visual Studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\bin\x86\Debug\MyMoney.UWP.exe">
       <PackagePath>entrypoint\MyMoney.UWP.exe</PackagePath>
-      <Modified>2017-05-20T13:34:20.351</Modified>
+      <Modified>2017-05-24T22:26:40.755</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Holykael\.nuget\packages\Microsoft.CSharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -98,6 +98,22 @@
     <AppxPackagedFile Include="C:\Users\Holykael\.nuget\packages\Newtonsoft.Json\6.0.8\lib\netcore45\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
       <Modified>2015-01-11T19:54:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Holykael\.nuget\packages\OxyPlot.Core\1.0.0\lib\portable-net45+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1+Xamarin.iOS10\OxyPlot.dll">
+      <PackagePath>OxyPlot.dll</PackagePath>
+      <Modified>2016-09-11T19:26:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Holykael\.nuget\packages\OxyPlot.Windows\1.0.0\lib\uap10.0\OxyPlot.Windows.dll">
+      <PackagePath>OxyPlot.Windows.dll</PackagePath>
+      <Modified>2016-09-11T19:26:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Holykael\.nuget\packages\OxyPlot.Xamarin.Forms\1.0.0\lib\uap10.0\OxyPlot.Xamarin.Forms.Platform.UWP.dll">
+      <PackagePath>OxyPlot.Xamarin.Forms.Platform.UWP.dll</PackagePath>
+      <Modified>2017-01-07T23:13:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Holykael\.nuget\packages\OxyPlot.Xamarin.Forms\1.0.0\lib\uap10.0\OxyPlot.Xamarin.Forms.dll">
+      <PackagePath>OxyPlot.Xamarin.Forms.dll</PackagePath>
+      <Modified>2017-01-07T23:13:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Holykael\.nuget\packages\runtime.any.System.Collections\4.0.11\lib\netcore50\System.Collections.dll">
       <PackagePath>System.Collections.dll</PackagePath>
@@ -569,11 +585,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Holykael\Documents\Visual Studio 2017\Projects\MyMoney\MyMoney\MyMoney\bin\Debug\MyMoney.dll">
       <PackagePath>MyMoney.dll</PackagePath>
-      <Modified>2017-05-20T13:34:04.197</Modified>
+      <Modified>2017-05-24T22:26:25.965</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Holykael\Documents\Visual Studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\Assets\plus.png">
       <PackagePath>Assets\plus.png</PackagePath>
-      <Modified>2017-05-14T16:29:42.304</Modified>
+      <Modified>2017-05-24T19:59:48.394</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Holykael\Documents\Visual Studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\Assets\LockScreenLogo.scale-100.png">
       <PackagePath>Assets\LockScreenLogo.scale-100.png</PackagePath>
@@ -737,6 +753,14 @@
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2017-05-10T23:50:47.900</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Holykael\.nuget\packages\OxyPlot.Windows\1.0.0\lib\uap10.0\OxyPlot.Windows\OxyPlot.Windows.xr.xml">
+      <PackagePath>OxyPlot.Windows\OxyPlot.Windows.xr.xml</PackagePath>
+      <Modified>2016-09-11T19:26:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Holykael\.nuget\packages\OxyPlot.Windows\1.0.0\lib\uap10.0\OxyPlot.Windows\Properties\OxyPlot.Windows10.rd.xml">
+      <PackagePath>OxyPlot.Windows\Properties\OxyPlot.Windows10.rd.xml</PackagePath>
+      <Modified>2016-09-11T19:26:20.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Holykael\.nuget\packages\Xamarin.Forms\2.3.4.224\lib\uap10.0\Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml">
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
       <Modified>2017-03-29T12:22:30.000</Modified>
@@ -748,11 +772,11 @@
     <AppxPackagedFile Include="C:\Users\Holykael\Documents\Visual Studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-05-17T09:07:37.624</Modified>
+      <Modified>2017-05-24T22:26:44.712</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Holykael\Documents\Visual Studio 2017\Projects\MyMoney\MyMoney\MyMoney.UWP\bin\x86\Debug\Core\MyMoney.UWP.exe">
       <PackagePath>MyMoney.UWP.exe</PackagePath>
-      <Modified>2017-05-20T13:34:20.882</Modified>
+      <Modified>2017-05-24T22:33:53.108</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

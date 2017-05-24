@@ -7,13 +7,17 @@ using System.Diagnostics;
 using Xamarin.Forms;
 using System.Net;
 using System.IO;
+using OxyPlot.Series;
+using OxyPlot;
 
 namespace MyMoney
 {
+    
     public partial class MainPage : ContentPage
     {
         int requestsDone = 0;
         List<Tuple<double, string>> values = new List<Tuple<double, string>>();
+        public static string conversion_target = "";
         public MainPage()
         {
             InitializeComponent();
@@ -52,7 +56,12 @@ namespace MyMoney
             });
             
         }
+       async private void graphical_clicked(object sender, EventArgs e) {
 
+            await Navigation.PushAsync(new GraphicalViewPage(values)
+            {
+            });
+        }
         private void Convert_Clicked(object sender, EventArgs e)
         {
             this.requestsDone = 0;
@@ -61,7 +70,8 @@ namespace MyMoney
             Picker choice = this.FindByName<Picker>("targetcur");
             if (choice.SelectedIndex == -1)
                 return;
-            else targetcurrency = choice.Items[choice.SelectedIndex].Substring(0,3);
+            targetcurrency = choice.Items[choice.SelectedIndex].Substring(0,3);
+            conversion_target = choice.Items[choice.SelectedIndex];
             int count = 0;
             foreach(Money m in listView.ItemsSource)
             {

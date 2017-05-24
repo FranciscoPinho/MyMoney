@@ -57,8 +57,9 @@ namespace MyMoney.UWP
                 rootFrame = new Frame();
 
                 rootFrame.NavigationFailed += OnNavigationFailed;
-
+                OxyPlot.Xamarin.Forms.Platform.UWP.PlotViewRenderer.Init();
                 Xamarin.Forms.Forms.Init(e);
+              
 
                 if (e.PreviousExecutionState == ApplicationExecutionState.Terminated)
                 {
